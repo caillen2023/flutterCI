@@ -16,7 +16,7 @@ jobs:
       - run: cd flutter_module && flutter build ios-framework --cocoapods --output=../FlutterModuleDemo/Flutter
       - run: |
          git add .
-         get commit -m 'update flutter framework'
+         git commit -m 'update flutter framework'
 
       - name: Push changes
         uses: ad-m/github-push-action@master
